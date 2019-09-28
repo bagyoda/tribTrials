@@ -6,7 +6,9 @@ import com.tribesproject.mytribes.resources.Resource;
 import com.tribesproject.mytribes.resources.ResourceType;
 import com.tribesproject.mytribes.troops.Troop;
 import com.tribesproject.mytribes.troops.TroopType;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ProductFactory implements Factory {
   @Override
   public Building createBuilding(String type) {
